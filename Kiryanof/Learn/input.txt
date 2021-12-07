@@ -1,0 +1,21 @@
+from random import*
+import turtle
+
+
+
+turtle.shape('turtle')
+turtle.speed(99)
+
+
+def dvizhenie(a,b):
+    turtle.left(a)
+    turtle.forward(b)
+
+kolichestvo = randint(0, 1000)
+
+for i in range(kolichestvo):
+    a = randint(0, 360)
+    b = randint(-50, 50)
+    dvizhenie(a, b)
+print(kolichestvo)
+
